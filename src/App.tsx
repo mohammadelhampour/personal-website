@@ -1,8 +1,12 @@
+import React from "react"
+import Header from "./components/Header/Header"
 
 const App = () => {
   return (
-    // eslint-disable-next-line react/react-in-jsx-scope
-    <div>Personal Website</div>
+    <React.Fragment>
+      <div>Personal Website</div>
+      <Header />
+    </React.Fragment>
   )
 }
 
